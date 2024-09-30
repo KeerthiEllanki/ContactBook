@@ -1,0 +1,151 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+input[type=submit], [type=text], textarea, select {
+		flex: 1; /* Takes up remaining space */
+	    padding: 8px;
+	    border: 1px solid #ccc;
+	    border-radius: 5px;
+		font-size: large;
+}
+input[type=submit] {
+    width: auto;
+    background-color: rgb(0, 175, 0);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-weight: bold;
+	font-size: large;
+}
+input[type=submit]:hover {
+    background-color: rgb(0, 150, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    background-color:#b3ebf2;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px rgb(192, 192, 192);
+    margin-top: 20px;
+	width: 60%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+pre {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid rgb(192, 192, 192);;
+    padding: 25px;
+    border-radius: 5px;
+	margin: 0px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Space between form fields */
+}
+
+label {
+	font-weight: bold;
+	font-size: large;
+    flex: 0 0 100px; /* Fixed width for labels */
+    margin-right: 10px; /* Space between label and input */
+}
+/* Link styling */
+.page-link {
+	text-align: center;
+	display: block;
+    margin-top: 40px;
+    text-decoration: none;
+    color: rgb(0, 128, 255);
+    font-weight: bold;
+	font-size: large;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.table-link {
+	    text-align: center;
+	    color: rgb(0, 128, 255);
+	    font-weight: bold;
+		font-size: large;
+}
+
+/* Message styling */
+span {
+    display: block;
+    margin-top: 20px;
+    color: #28a745;
+    font-weight: bold;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid rgb(192, 192, 192);;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+
+th {
+    background-color:#b3ebf2;
+	color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.add-vendor-link {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add-vendor-link:hover {
+    background-color: #45a049;
+}
+
+/* Hover effects on table rows for better readability */
+tr:hover {
+    background-color: #ddd;
+}
+
+.success-message {
+	text-align: center;
+		display: block;
+	    margin-top: 40px;
+	    color: rgb(0, 150, 0);
+	    font-weight: bold;
+		font-size: large;
+}
